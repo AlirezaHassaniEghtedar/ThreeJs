@@ -1,5 +1,5 @@
 # Three Js Learning
 ## Project Links (check the live demos)
 
-[project-01]()
-[project-02]()
+[project-01](https://alirezahassanieghtedar.github.io/ThreeJs/project-01/index.html)
+[project-02](https://alirezahassanieghtedar.github.io/ThreeJs/project-02/index.html)
