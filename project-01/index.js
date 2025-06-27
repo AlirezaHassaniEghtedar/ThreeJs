@@ -2,14 +2,13 @@ import * as THREE from "three";
 import { OrbitControls } from "jsm/controls/OrbitControls.js"
 
 const moveBtn = document.querySelector(".move")
-const resetBtn = document.querySelector(".reset")
 
 const width = window.innerWidth;
 const height = window.innerHeight;
 
 const renderer = new THREE.WebGLRenderer({ antialias: true })
-
 renderer.setSize(width, height)
+renderer.setPixelRatio(window.devicePixelRatio)
 
 document.body.appendChild(renderer.domElement)
 
