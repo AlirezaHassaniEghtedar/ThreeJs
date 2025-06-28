@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { getFXScene } from "./getFXScene.js";
+import { getFXScene } from "./FXScene.js";
 import { getTransition } from "./Transition.js";
 
 const clock = new THREE.Clock();
@@ -18,7 +18,7 @@ function init() {
     container.appendChild(renderer.domElement);
 
     const materialA = new THREE.MeshBasicMaterial({
-        color : 0x00ff00 , 
+        color : 0x000000 , 
         wireframe : true
     })
 
@@ -30,7 +30,8 @@ function init() {
     const sceneA = getFXScene({
         renderer , 
         material : materialA , 
-        clearColor : 0x000000
+        clearColor : 0x000000 , 
+        clearColor : 0xEFEFEF
     })
 
     const sceneB = getFXScene({
