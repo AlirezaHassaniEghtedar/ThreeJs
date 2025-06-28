@@ -55,7 +55,7 @@ const tubeGeometry = new THREE.TubeGeometry(spline , 222 , 0.65 , 16 , true)
 
 const edges = new THREE.EdgesGeometry(tubeGeometry , 0.2);
 const lineMaterial = new THREE.LineBasicMaterial({
-    color : 0xff00ff
+    color : 0x03d7fc
 })
 const tubeLines = new THREE.LineSegments(edges , lineMaterial)
 scene.add(tubeLines)
