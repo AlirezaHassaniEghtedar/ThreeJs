@@ -37,7 +37,7 @@ loader.load("./textures/8k_earth_daymap.jpg", (texture) => {
   const img = texture.image;
 
   canvas.width = img.width
-  canvas.heigt = img.heigt
+  canvas.height = img.height
   ctx.drawImage(img, 0, 0)
 
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
